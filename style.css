@@ -1,0 +1,116 @@
+body {
+	box-sizing: border-box;
+	margin: 0px;
+}
+
+.navigator {
+	display: flex;
+	padding-left: 50px;
+	padding-right: 50px;
+	justify-content: space-between;
+	font-family: 'Gulfs Display';
+	height: 100px;
+	align-items: center;
+}
+
+.button {
+	font-size: 30px;
+	padding-top: 10px;
+	text-align: center;
+	padding-left: 20px;
+}
+
+.navigator1 {
+	display: flex;
+}
+
+.button1 {
+	width: 330px;
+	font-size: 50px;
+}
+
+a:visited, a:link {
+	color: #f4b4b3;
+}
+
+a:active {
+	color: #91a8d0;
+}
+
+a:hover {
+	color: #91a8d0;
+}
+
+.albumname > a, .albumname > a:visited {
+	color: #fff;
+}
+
+.albumname > a:hover{
+	color: #91a8d0;
+}
+
+.description {
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 20px;
+	font-family: "Chalkboard";
+	font-size: 20px;
+	line-height: 22px;
+	color: #91a8d0;
+	height: auto;
+}
+
+.members1 {
+	display: flex;
+	padding-right: 50px;
+	flex-wrap: wrap;
+}
+
+.members2 {
+	padding-left: 50px;
+	font-family: 'Gulfs Display';
+	font-size: 40px;
+	line-height: 0px;
+	width: 29%;
+}
+
+.albums {
+	display: flex;
+	align-items: center;
+	background: #f4b4b3;
+	padding-left: 50px;
+}
+
+.albumcover {
+	width: 50%;
+	height: auto;
+	max-height: 100%;
+	padding: 20px;
+}
+
+.descriptiona {
+	padding-right: 50px;
+	padding-left: 50px;
+	font-family: "Chalkboard";
+	font-size: 30px;
+	color: #fff;
+}
+
+.albumname {
+		font-family: 'Gulfs Display';
+		font-size: 40px;
+}
+
+.goingseventeen {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.members2 > a, .members2 > a:visited {
+	color: #000;
+}
+
+.members2 > a:hover{
+	color: #f4b4b3;
+}
