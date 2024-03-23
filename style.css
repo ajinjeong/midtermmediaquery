@@ -1,4 +1,7 @@
-@import url("fonts/GulfsDisplay-Normal/stylesheet.css")
+@font-face {
+  font-family: <Gulfs Display>;
+  src: url(/Users/ajinjeong_1/Library/Fonts/GulfsDisplay-Normal.ttf);
+}
 
 body {
 	box-sizing: border-box;
