@@ -1,6 +1,6 @@
 @font-face {
-  font-family: "Gulfs Display";
-  src: url("GulfsDisplay-Normal.ttf");
+  font-family: Gulfs Display;
+  src: url(gulfsdisplay-normal.ttf);
 }
 
 body {
