@@ -3,6 +3,11 @@
   src: url(GulfsDisplay-Normal.ttf);
 }
 
+@font-face {
+  font-family: 'Gaelle';
+  src: url(Gaelle001.ttf);
+}
+
 body {
 	box-sizing: border-box;
 	margin: 0px;
@@ -96,7 +101,7 @@ a:hover {
 .descriptiona {
 	padding-right: 50px;
 	padding-left: 50px;
-	font-family: "Chalkboard";
+	font-family: 'Gaelle';
 	font-size: 30px;
 	color: #fff;
 }
