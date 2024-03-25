@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "Gulfs Display";
+  src: url("GulfsDisplay-Normal.ttf");
+}
+
 body {
 	box-sizing: border-box;
 	margin: 0px;
