@@ -8,6 +8,27 @@
   src: url(Gaelle001.ttf);
 }
 
+@media screen and (min-width: 600px) {
+	.navigatorsmall {
+		display: none;
+	}
+	.descriptionsmall, .descriptiongosesmall {
+		display: none;
+	}
+	.goingseventeensmall {
+		display: none;
+	}
+	.members1small {
+		display: none;
+	}
+	.members2small {
+		display: none;
+	}
+	.albumssmall, .albumnamesmall, .albumcoversmall, .descriptionasmall {
+		display: none;
+	}
+}
+
 body {
 	box-sizing: border-box;
 	margin: 0px;
@@ -59,7 +80,26 @@ a:hover {
 	color: #91a8d0;
 }
 
+.albumnamesmall > a, .albumnamesmall > a:visited {
+	color: #fff;
+}
+
+.albumnamesmall > a:hover{
+	color: #91a8d0;
+}
+
 .description {
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 20px;
+	font-family: 'Gaelle';
+	font-size: 20px;
+	line-height: 22px;
+	color: #91a8d0;
+	height: auto;
+}
+
+.descriptiongose {
 	padding-left: 50px;
 	padding-right: 50px;
 	padding-top: 20px;
@@ -115,6 +155,7 @@ a:hover {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
+	margin-bottom: 50px;
 }
 
 .members2 > a, .members2 > a:visited {
@@ -123,4 +164,109 @@ a:hover {
 
 .members2 > a:hover{
 	color: #f4b4b3;
+}
+
+.members2small > a, .members2small > a:visited {
+	color: #000;
+}
+
+.members2small > a:hover{
+	color: #f4b4b3;
+}
+
+@media screen and (max-width: 600px) {
+	.navigator {
+		display: none;
+	}
+	.navigatorsmall {
+		padding-left: 50px;
+		padding-right: 50px;
+		font-family: 'Gulfs Display';
+		text-align: center;
+		padding-top: 10px;
+	}
+
+	.buttonsmall {
+		font-size: 30px;
+		text-align: center;
+		line-height: 20px;
+	}
+
+	.button1small {
+		font-size: 50px;
+		text-align: center;
+		line-height: 40px;
+	}
+	.description {
+		display: none;
+	}
+	.descriptionsmall {
+	padding-left: 20px;
+	padding-right: 20px;
+	font-family: 'Gaelle';
+	font-size: 20px;
+	line-height: 22px;
+	color: #91a8d0;
+	height: auto;
+	}
+	.goingseventeen {
+		display: none;
+	}
+	.goingseventeensmall {
+	width: 100%;
+	}
+	.members1 {
+		display: none;
+	}
+	.members2 {
+		display: none;
+	}
+	.members1small {
+	padding-right: 20px;
+	}
+	.members2small {
+	padding-left: 20px;
+	font-family: 'Gulfs Display';
+	font-size: 40px;
+	line-height: 0px;
+	width: 100%%;
+	}
+	.albums, .albumname, .albumcover, .descriptiona {
+		display: none;
+	}
+	.albumssmall {
+	background: #f4b4b3;
+	margin-top: 0px;
+	}
+.albumcoversmall {
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+	}
+.descriptionasmall {
+	padding-right: 20px;
+	padding-left: 20px;
+	font-family: 'Gaelle';
+	font-size: 20px;
+	line-height: 25px;
+	padding-bottom: 20px;
+	color: #fff;
+	}
+.albumnamesmall {
+		font-family: 'Gulfs Display';
+		font-size: 40px;
+		line-height: 40px;
+	}
+.descriptiongose {
+	display: none;
+}
+.descriptiongosesmall {
+	padding-left: 20px;
+	padding-right: 20px;
+	font-family: 'Gaelle';
+	font-size: 20px;
+	line-height: 22px;
+	color: #91a8d0;
+	height: auto;
+	}
 }
